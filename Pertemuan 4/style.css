@@ -1,0 +1,40 @@
+body {
+	/*background-image: url('cing.jpg');*/
+	font-family: arial;
+
+}
+
+#judul {
+	 font-size: 30px;
+	 font-weight: arial;
+	 text-align: center;
+	 color: white;
+}
+
+.konten {
+	border: 1px;
+	font-family: "comic sans MS" , bold;
+	font-size: 15px; 
+}
+
+.color {
+	color: brown;
+}
+
+.box {
+	float: left;
+	width: 250px;
+	height: 250px;
+	border: 5px solid grey;
+	background-image: url('cing.jpg');
+	border-radius: 360px;
+}
+
+.box2 {
+	float: center;
+	width: 250px;
+	height: 250px;
+	border: 5px solid grey;
+	background-image: url('cing.jpg');
+	border-radius: 360px;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pemrograman Web TI</title>
+<link rel="stylesheet" type="text/css" href="layout3.css">
+</head>
+<body>
+<div class="wrapper">
+<header>
+<nav id="navtop">
+<a href="#">Tentang Kami</a>
+<a href="#">Hubungi Kami</a>
+<a href="#">Denah Lokasi</a>
+<a href="#">Agenda</a>
+</nav>
+<h1><img src="amikom.jpg"><p id="h1b">Pemrograman Web</p></h1>
+<nav id="navbottom">
+<ul>
+<li><a href="" class="current">Home</a></li>
+<li><a href="">Web Desain</a></li>
+<li><a href="">Web Programming</a></li>
+<li><a href="">Berita</a></li>
+<li><a href="">Download</a></li>
+</ul>
+<input type="search" name="nama" placeholder="Cari apa?" required>
+</nav>
+</header>
+<section class="courses">
+<section>
+<h2 id="h2menuleft">Pendaftaran Member Baru</h2>
+<form action="">
+<table>
+<tr>
+<td>Nama Lengkap</td>
+<td><input type="text" name="nama" placeholder="Nama Lengkap Anda" required></td>
+</tr>
+<tr>
+<td>Tanggal Lahir</td>
+<td><input type="date" name="date"></td>
+</tr>
+<tr>
+<td>Jenis Kelamin</td>
+<td><input type="radio" name="jk"> pria
+<input type=”radio” name=”jk”>wanita</td>
+</tr>
+<tr>
+<td valign="top">Materi yang Telah di kuasai</td>
+<td>
+<input type="checkbox">HTML<br />
+<input type="checkbox">CSS<br />
+<input type="checkbox">HTML5<br />
+<input type="checkbox">CSS3<br />
+</td>
+</tr>
+<tr>
+<td>No Hp</td>
+<td><input type="number" placeholder="No HP Anda" name="number" required></td>
+</tr>
+<tr>
+<td>Kota Tinggal</td>
+<td>
+<select>
+<option>-Pilih-</option>
+<option>Bandung</option>
+<option>Jakarta</option>
+<option>Semarang</option>
+<option>Surabaya</option>
+<option>Yogyakarta</option>
+</select>
+</td>
+</tr>
+<tr>
+<td valign="top" placeholder="Alamat Lengkap Anda" required>Alamat Lengkap</td>
+<td><textarea></textarea></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Submit"><input type="reset" value="Reset"></td>
+</tr>
+</table>
+</form>
+</section>
+<h2 id="h2menuleft">Berita Terbaru</h2>
+<article>
+<figure>
+<img src="images/domain.jpg" alt="soto" />
+</figure>
+<hgroup>
+<h2>Domain</h2>
+</hgroup>
+<p>Domain adalah sebuah nama unik yang digunakan untuk
+mempermudah pengguna mengakses informasi pada server komputer yang ada di jaringan Internet. Sebelum
+mengenal istilah domain, untuk mengakses informasi yang ada pada server komputer digunakan alamat IP Address
+yang berupa sederetan angka panjang.</p>
+</article>
+<article>
+<figure>
+<img src="images/hosting.jpg" alt="pecel" />
+</figure>
+<hgroup>
+<h2>Hosting</h2>
+</hgroup>
+<p>Hosting (disebut juga Web Hosting / sewa hosting) adalah
+penyewaan tempat untuk menampung data-data yang diperlukan oleh sebuah website dan sehingga dapat
+diakses lewat Internet. Data disini dapat berupa file, gambar, email, aplikasi/program/script dan database.</p>
+</article>
+<ul class="pagination">
+<li><a href="#">&laquo;</a></li>
+<li><a href="#" class="active">1</a></li>
+<li><a href="#">2</a></li>
+<li><a href="#">3</a></li>
+<li><a href="#">4</a></li>
+<li><a href="#">5</a></li>
+<li><a href="#">&raquo;</a></li>
+</ul>
+</section>
+<aside>
+<section>
+<h2 id="h2menu">Login Member</h2>
+<input type="text" placeholder="Username">
+<input type="password" placeholder="Password">
+<input type="submit" value="Login">
+</section>
+<section class="popular-recipes">
+<h2 id="h2menumiddle">Web Desain</h2>
+<a href="">HTML</a>
+<a href="">CSS</a>
+<a href="">Javascript</a>
+<a href="">Jquery</a>
+</section>
+<section class="contact-details">
+<h2 id="h2menumiddle">Web Programming</h2>
+<a href="">PHP</a>
+<a href="">MYSQL</a>
+<a href="">CodeIgniter</a>
+<h2 id="h2menubottom"></h2>
+</section>
+</aside>
+<footer align="center">
+&copy; 2016 Pemrograman WEB TI
+</footer>
+</div>
+</body>
+</html>
